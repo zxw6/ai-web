@@ -1,4 +1,4 @@
-USE `ai_chat`;
+USE `chatai`;
 
 INSERT INTO `sys_user` (
     `id`, `username`, `password_hash`, `nickname`, `status`

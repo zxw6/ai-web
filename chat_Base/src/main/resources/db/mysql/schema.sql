@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS `ai_chat`
+CREATE DATABASE IF NOT EXISTS `chatai`
     DEFAULT CHARACTER SET utf8mb4
     DEFAULT COLLATE utf8mb4_unicode_ci;
 
-USE `ai_chat`;
+USE `chatai`;
 
 CREATE TABLE IF NOT EXISTS `sys_user` (
     `id` BIGINT NOT NULL AUTO_INCREMENT COMMENT 'Primary key',
